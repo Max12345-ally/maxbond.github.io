@@ -1,0 +1,257 @@
+
+.container {
+    background: white;
+    margin: 0 auto;
+    height: 250px;
+    width: 1000px;
+    display: flex;
+  }
+  
+  .content {
+    color: #FFF;
+    padding: 5px;
+    margin: 15px;
+   
+  }
+  
+  .left-sidebar {
+    width: 20%;
+    lenght: 20%;
+    background-color: deepskyblue;
+   
+  }
+  
+  .main {
+    width: 20%;
+    background-color: deepskyblue;
+    
+  }
+  
+  
+  .right-sidebar {
+    width: 20%;
+    background-color: deepskyblue;
+   
+  }
+  
+  @media screen and (max-width: 768px) and (min-width: 400px) {
+    
+    #container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+   
+  .left-sidebar {
+    order: 3;
+    width: 20%;
+    background-color: deepskyblue;
+    display: none;
+  }
+    
+  .right-sidebar{
+    order: 2;
+    width: 20%;
+    background-color: deepskyblue;
+    display: none;
+    
+  }
+    
+  .main {
+    font-size: 160px;
+    order: 1;
+    width: 20%;
+    background-color: deepskyblue;
+    font-size: 16px;
+    font-weight: bold;
+    
+   
+      }
+  }
+  
+  
+  body {
+    font-size: 20px;
+   
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    list-style: none;
+    margin: 0; 
+    background: deepskyblue;
+  }
+  
+  a.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    font-size: 40px;
+    font-style: bold;
+    font-weight: 600;
+      
+  }
+  
+  .navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    margin: 0; 
+    background: deepskyblue;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+  }
+  
+  .navigation a:hover {
+    background: #1565C0;
+  }
+  
+  div {
+    background: grey;
+    color: black;
+    text-align: center;
+    padding: 190px 0;
+    font-size: 60px;
+    font-style: arial;
+    
+  }
+  
+  footer {
+      background: deepskyblue;
+      color: #fff;
+      padding: 20px 0;  
+  }
+  
+  @media all and (max-width: 600px) {
+    .header {
+      flex-flow: column wrap;
+      padding: 0;
+      background: deepskyblue;
+    }
+  
+  @media all and (max-width: 800px) {
+    .logo {
+      justify-content: space-around;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .logo {
+      flex-flow: column wrap;
+      padding: 0;
+      background: deepskyblue;
+    }
+    .logo { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid 
+        rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    
+    
+  @media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 0;
+      background: #1565C0;
+    }
+    .navigation a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid 
+        rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+  }
+    
+   
+  .container {
+    background: white;
+    margin: 0 auto;
+    height: 150px;
+    width: 600px;
+    display: flex;
+  }
+  
+  .content {
+    color: #FFF;
+    padding: 5px;
+    margin: 15px;
+   
+  }
+  
+  .left-sidebar {
+    width: 20%;
+    lenght: 20%;
+    background-color: deepskyblue;
+   
+  }
+  
+  .main {
+    width: 20%;
+    background-color: deepskyblue;
+    
+  }
+  
+  
+  .right-sidebar {
+    width: 20%;
+    background-color: blue;
+   
+  }
+  
+  @media screen and (max-width: 768px) and (min-width: 400px) {
+    
+    #container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+   
+  .left-sidebar {
+    order: 3;
+    width: 20%;
+    background-color: red;
+    display: none;
+  }
+    
+  .right-sidebar{
+    order: 2;
+    width: 20%;
+    background-color: deepskyblue;
+    display: none;
+    
+  }
+    
+  .main {
+    order: 1;
+    width: 20%;
+    background-color: deepskyblue;
+    font-size: 16px;
+   
+        }
+    
+  
+    
+    
+  }
+  
